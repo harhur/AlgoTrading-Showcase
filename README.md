@@ -1,6 +1,6 @@
 # AlgoTrading-Showcase
+### [**Sequence Diagram**](https://github.com/harhur/AlgoTrading-Showcase/blob/main/sequence_flow.md)
 #### Summary, learnings, and technical design of my personal project.
-#### [**Sequence Diagram**](https://github.com/harhur/AlgoTrading-Showcase/blob/main/sequence_flow.md)
 
 <br>
 
