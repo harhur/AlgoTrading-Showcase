@@ -20,7 +20,7 @@ The bread and butter of the program is a Python executable that leverages 3rd-pa
 * Leveraged the requests_ip_rotator library and pair-programmed with the library’s developer to debug an issue I was having
 * Integration with Yahoo Finance and Robinhood APIs to fetch data
 * Dynamically fetches the relevant historical data
-  * Ie skipping over weekends and holidays, shorter market days, etc.
+  * Examples: skipping over weekends and holidays, shorter market days, etc.
 * Uses Boto3 and multiprocessing to quickly clean up AWS resources, namely usage plans and REST APIs
 * Resiliency via robust error handling and AWS Auto Scaling Group
 * And the magic behind it all -- a ton of customized, under-the-hood financial analysis using analytics libraries
@@ -45,14 +45,14 @@ The bread and butter of the program is a Python executable that leverages 3rd-pa
   * Numpy
   * And more
 
-## Challenges - what were they, and how did I overcome them?
+## Challenges -- what were they, and how did I overcome them?
 * Data wrangling and validation
   * Real-world data is quite often very messy
 * Deployment to the cloud
   * Initially tried using Azure with a Windows executable, but EC2 has better documentation and it was overall faster to host a Linux executable instead
 * Issues with libraries
-  * Stack overflow
   * Pair-programmed with the author of a library!
+  * Stack overflow
 
 ## Project Screenshots
 ![Potential Candidates](https://github.com/harhur/AlgoTrading-Showcase/blob/main/showcase.PNG)
