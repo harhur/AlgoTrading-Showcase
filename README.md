@@ -54,5 +54,6 @@ The bread and butter of the program is a Python executable that leverages 3rd-pa
   * Stack overflow
   * Pair-programmed with the author of a library!
 
-## Project Artifacts
-
+## Project Screenshots
+![Potential Candidates](https://github.com/harhur/AlgoTrading-Showcase/blob/main/showcase.PNG)
+![Backtest Analysis](https://github.com/harhur/AlgoTrading-Showcase/blob/main/showcase-2.PNG)
