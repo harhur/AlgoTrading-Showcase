@@ -1,5 +1,8 @@
 # AlgoTrading-Showcase
-Summary, learnings, and technical design of my personal project: "AlgoTrading"
+#### Summary, learnings, and technical design of my personal project.
+#### [**Sequence Diagram**](https://github.com/harhur/AlgoTrading-Showcase/blob/main/sequence_flow.md)
+
+<br>
 
 ## Purpose -- why did I make this?
 I have always had an interest in financial data and to me, the possibilities of the stock market are endless. After completing my AWS Solutions Architect certification, I wondered about potential passion projects that could leverage AWS’ systems. This ultimately led to the creation of the AlgoTrading project. Note, There is also no freely available API that provides technical analysis on options data.
@@ -10,7 +13,7 @@ The AlgoTrading program is a personal project that I developed over the past few
 ## How does it work?
 The bread and butter of the program is a Python executable that leverages 3rd-party APIs to fetch historical and live option contract data. Through rigorous and continual parameter testing, I have arrived at a successful combination of technical analysis values that have worked well in current market conditions. The project executable is hosted on an Amazon EC2 T3.micro instance and uses a cron job to schedule a run during market hours. A Redis database stores the trades made so far and their associated data. Additionally, a host of other technologies are used that can be found in the Technologies section below.
 
-## Features?
+## Features
 * Send an SMS text via Twilio for promising trades
 * Able to scrape hundreds of tickers from Finviz using Scrapy 
 * Intelligently proxies API calls using AWS API Gateway and random client data generation
@@ -22,7 +25,7 @@ The bread and butter of the program is a Python executable that leverages 3rd-pa
 * Resiliency via robust error handling and AWS Auto Scaling Group
 * And the magic behind it all -- a ton of customized, under-the-hood financial analysis using analytics libraries
 
-## Technologies and skills developed?
+## Technologies and Skills Developed
 * AWS
   * EC2
     * Setting up a Python Virtual Environment and creating a Python executable in a Linux environment
@@ -51,4 +54,5 @@ The bread and butter of the program is a Python executable that leverages 3rd-pa
   * Stack overflow
   * Pair-programmed with the author of a library!
 
-## Project Screenshots
+## Project Artifacts
+
